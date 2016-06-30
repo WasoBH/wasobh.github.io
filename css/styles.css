@@ -30,17 +30,28 @@ p {
   position: relative;
 }
 
-#chicken .logo {
+#chicken .logo, .chicken {
   background-color: red;
+  color: white;
 }
 
-#beef .logo {
+#beef .logo, .beef {
   background-color: black;
+  color: white;
 }
 
-#sushi .logo {
+#sushi .logo, .sushi {
   background-color: #256733;
+  color: white;
 }
+
+.navbar-default .navbar-nav>li>a{
+  color:white;
+}
+
+
+
+
 
 h1 {
   text-align: center;
